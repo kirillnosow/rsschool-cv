@@ -29,7 +29,14 @@ I'm Kirill Nosov, 20 years old. I'm a student. I think that my actual job will l
 - Windows OS
 
 ## Code Examples
+'
+function bmi(weight, height) {
 
+  const bmi = weight/(height*height);
+  
+  return bmi <= 18.5 ? 'Underweight': bmi <= 25 ? 'Normal': bmi <= 30 ? 'Overweight': 'Obese';
+}
+'
 ## Education
 
 - __Ural federal university named after the first president of Russia B.N. Yeltsin__
