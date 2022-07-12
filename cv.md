@@ -32,9 +32,9 @@ I'm Kirill Nosov, 20 years old. I'm a student. I think that my actual job will l
 
 ## Education
 
-- _Ural federal university named after the first president of Russia B.N. Yeltsin_
-	+ business-informatics (2019-2023)
+- __Ural federal university named after the first president of Russia B.N. Yeltsin__
+	+ bachelor: business-informatics (2019-2023)
 
 ## Language
-- _Russian_ - native speaker
-- _English_ - B1
+- __Russian__ - native speaker
+- __English__ - B1
