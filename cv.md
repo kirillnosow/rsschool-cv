@@ -1,6 +1,6 @@
 # Kirill Nosov
 
-## My contact info
+## Contact info
 
 - Phone: +7 952 348 65 93
 - Email: [nosowork@yandex.ru](mailto:nosowork@yandex.ru)
