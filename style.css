@@ -201,12 +201,20 @@ p {
     width: fit-content;
 }
 
+.skills__item::before {
+    content: '//';
+    font-family: "Ubuntu", sans-serif;
+    color: #000000;
+    transform: translateX(-100%);
+    position: absolute;
+}
+
 .projects {
     margin-bottom: 68px;
 }
 
 .projects__item {
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
     margin-bottom: 68px;
     max-width: 100%;
@@ -218,7 +226,13 @@ p {
 }
 
 .projects__item:nth-child(even) {
-    transform: translateX(-25px);
+    transform: translateX(125px);
+}
+
+.projects__item:nth-of-type(even) .projects__content {
+    right: 350px;
+    left: auto;
+    text-align: right;
 }
 
 .projects__link {
