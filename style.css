@@ -89,7 +89,7 @@ p {
 }
 
 .container {
-    max-width: 1440px;
+    max-width: 1238px;
     margin: 0 auto;
     margin-bottom: 68px;
 }
@@ -429,4 +429,39 @@ p {
     border-bottom: 1px solid #FFFFFF;
     position: relative;
     line-height: 1.2;
+}
+
+pre {
+    width: 100%;
+    padding-left: 0;
+    white-space: normal;
+    display: flex;
+    justify-content: center;
+}
+
+pre code.hljs {
+    background-color: #000000;
+    padding: 0;
+}
+
+pre code.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 1em;
+}
+
+pre code {
+    white-space: pre-wrap;
+}
+
+.hljs-keyword, .hljs-selector-tag {
+    color: #b45ea4;
+}
+
+.hljs-section, .hljs-title {
+    color: #78bb65;
+}
+
+.hljs-built_in, .hljs-link, .hljs-literal, .hljs-meta, .hljs-number, .hljs-params, .hljs-type {
+    color: #e7ce56;
 }
